@@ -1,6 +1,12 @@
-//Title: 230418a
-//Author: takawo
-//Availability: "https://openprocessing.org/sketch/1899893/embed/"
+
+/* I have implemented this directly from takawo's tutorial:
+  Title: 230418a
+  Author: takawo
+  Date: n.d. 
+  https://openprocessing.org/sketch/1899893/embed/
+*/
+
+//I have importing the radicals of Chinese characters//
 let radicals = [
   "⺀", "⺁", "⺂", "⺃", "⺄", // 偏旁部首
   "⼀", "⼁", "⼂", "⼃", "⼄", "⺅", "⺆", "⺇", "⺈", "⺉","⺊", "⺋", "⺌", "⺍", "⺎",  "⺨", "⺩", "⺪", "⺫", "⺬", "⺲", "⺳", "⺴", "⺵", "⺶",  "⺷", "⺸", "⺹", "⺺", "⺻", "⺼", "⺽", "⺾", "⺿", "⻀", "⻐", "⻑", "⻒", "⻓", "⻔", "⻤", "⻥", "⻦", "⻧", "⻨","⻟", "⻠", "⻡", "⻢", "⻣","⻮", "⻯", "⻰", "⻱", "⻲", "⺭", "⺮", "⺯", "⺰", "⺱", "⺣", "⺤", "⺥", "⺦", "⺧",
@@ -8,6 +14,7 @@ let radicals = [
 let graphics;
 let palette;
 let offset;
+
 let rs;
 let g;
 let w;
@@ -165,7 +172,7 @@ function createCharArray(f, num) {
 
 
 
-
+//I have added the ability to click to the next page//
 function mouseClicked() {
  if (mouseX > 0 && mouseX < width && mouseY > 0 && mouseY < height) {
     window.location.href = "https://editor.p5js.org/Bjsuse/full/kyMWaJ8bL";
